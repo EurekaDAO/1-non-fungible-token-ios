@@ -1,6 +1,6 @@
 const fcl = require("@onflow/fcl");
 const { serverAuthorization } = require("./auth/authorization.js");
-require("../flow/config.js");
+require("./auth/config.js");
 
 async function mintNFTs(recipient) {
   const names = ["Education", "Building", "Governance"];
